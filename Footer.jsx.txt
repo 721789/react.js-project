@@ -1,0 +1,12 @@
+
+
+var React = require("react");
+function Footer() {
+  const curry = new Date().getFullYear();
+  return (
+    <footer>
+      <p>Copyright @ {curry}</p>
+    </footer>
+  );
+}
+export default Footer;
